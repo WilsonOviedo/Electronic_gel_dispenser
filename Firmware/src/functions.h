@@ -1,7 +1,7 @@
 #include <Arduino.h>
 
-long distancia=0;
-long duracion=0;
+long distancia = 0;
+long duracion = 0;
 
 int ultrasonicRead(int pinTrig, int pinEcho)
 {
@@ -19,5 +19,5 @@ int ultrasonicRead(int pinTrig, int pinEcho)
 int infraredRead(int pinSensor)
 {
 
-    return map(analogRead(pinSensor),0,1023,0,20);
+    return map(analogRead(pinSensor), 0, 1023, 0, 20);
 }

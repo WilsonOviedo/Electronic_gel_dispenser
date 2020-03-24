@@ -6,7 +6,6 @@
 //Mode 1= IR sensor
 #define mode 0
 
-
 //Configs IO
 #define servoPin 2
 #define sensorUltrasonicPinTrig 3
@@ -17,6 +16,3 @@
 
 //General
 #define triger 10
-
-
-
